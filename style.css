@@ -1,0 +1,78 @@
+/* Nav Bar  */
+nav{
+    background-color: transparent !important;
+  }
+ 
+.no-shadows{
+      box-shadow: none !important;
+  }
+
+
+  .topNav{
+    position: absolute;
+    top: 0%;
+}
+
+/*  background image */
+
+.bg-img{
+    background-image: url('./assets/images/LA\ background.jpg');
+    background-size: cover;
+    position: relative;
+    height : 700px;
+    opacity: 0.9;
+
+}
+
+
+/* .bottom-bg{
+    background-image: url("./assets/images/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+/* Text inside first background image */
+.landing-content{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%, -50%)
+}
+
+
+
+#about{
+    margin-top: 0;
+    text-align: center;
+    
+    
+}
+
+.projects{
+    padding: 4%;
+}
+
+#project{
+    text-align: center;
+}
+
+.about-me{
+    text-align: justify;
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 4%;
+    
+    
+}
+
+
+.card{
+    height: 400px;
+    width: 500px;
+}
+
+.footer{
+    text-align: center;
+}
