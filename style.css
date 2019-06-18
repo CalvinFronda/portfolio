@@ -2,7 +2,7 @@
 
 html{
     scroll-behavior: smooth;
-    height: 9000px;
+    height: 4000px;
 }
 
 /* Nav Bar  */
@@ -49,13 +49,18 @@ nav{
 }
 
 
+#connect{
+    text-align: center;
+}
+
 
 #about{
     margin-top: 0;
     text-align: center;
     
-    
 }
+
+
 
 .projects{
     padding: 4%;
@@ -70,7 +75,7 @@ nav{
     position: relative;
     background-color: #f8f8f8;
     padding: 4%;
-    
+    height: 950px;
     
 }
 
