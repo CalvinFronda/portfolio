@@ -2,7 +2,7 @@
 
 html{
     scroll-behavior: smooth;
-    height: 4000px;
+
 }
 
 /* Nav Bar  */
@@ -25,11 +25,14 @@ nav{
     justify-content: center;
 }
 
-/*  background image */
+/*  background image adding Parallax  */
 
 .bg-img{
-    background-image: url('./assets/images/LA\ background.jpg');
+    background-image: url('./assets/images/picture/LA\ background.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     height : 950px;
     opacity: 0.9;
@@ -37,21 +40,17 @@ nav{
 }
 
 
-/* .bottom-bg{
-    background-image: url("./assets/images/background.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-} */
+
 
 /* Text inside first background image */
 .landing-content{
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
     text-align: center;
     color: white;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+  
 }
 
 
@@ -82,11 +81,21 @@ nav{
 
 
 
+#connect-icons li{
+    
+    display: inline-flex;
+}
+.icons{
+    text-align: center;
+    
+}
 #connect{
     text-align: center;
 }
+#copyright{
+    color : black;
+}
 
-
-.footer{
+.page-footer{
     text-align: center;
 }

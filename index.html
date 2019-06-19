@@ -19,7 +19,7 @@
 
     <!-- Navagation bar -->
     <div class="bg-img">
-
+        <!-- Main nav bar that has smooth scrolling to the section of the page. -->
         <nav class="topNav transparent no-shadows nav-extended">
             <div class="container transparent">
                 <div class="nav-wrapper">
@@ -34,12 +34,12 @@
                     </ul>
 
                 </div>
-
+                <!-- Responsive side, creates tabs under the logo to make it responsive. -->
                 <div class="nav-content">
                     <ul class="tabs tabs-transparent hide-on-large-only center-align">
                         <li class=""><a href="#aboutnav">About</a></li>
                         <li class=""><a href="#projects">Projects</a></li>
-                        <li class=""><a href="navContact">Contact</a></li>
+                        <li class=""><a href="#connect">Contact</a></li>
                     </ul>
 
                 </div>
@@ -95,7 +95,7 @@
             <div class="col s12 ">
                 <div class="card horizontal small">
                     <div class="card-image">
-                        <img src="assets/images/Squadup.gif">
+                        <img src="assets/images/gifs/Squadup.gif">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
@@ -114,7 +114,7 @@
 
                 <div class="card horizontal small">
                     <div class="card-image">
-                        <img src="assets/images/squatter.gif">
+                        <img src="assets/images/gifs/squatter.gif">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
@@ -140,12 +140,20 @@
 
 
     <div class="contact">
-        <h4 id="connect">Connect with me!</h4>
-        <div class="container">
-            <ul>
-                <li>Linkedin</li>
-                <li>Github</li>
-                <li>Resume</li>
+        <h2 id="connect">Connect with me!</h2>
+        <div class="container icons">
+            <ul id="connect-icons">
+                <a href="https://www.linkedin.com/in/calvinfronda/" target="_blank">
+
+                    <li><img src="assets/images/icons/icons8-linkedin.svg">
+                    </li>
+                </a>
+
+                <a href="https://github.com/CalvinFronda" target="_blank">
+                    <li><img src="assets/images/icons/icons8-github.svg"></li>
+                </a>
+
+                <li><img src="assets/images/icons/icons8-document.svg"></li>
             </ul>
         </div>
     </div>
@@ -154,15 +162,18 @@
 
 
 
+    <!-- footer -->
+    <footer class="page-footer  grey lighten-5">
 
-    <div class="footer">
         <div class="footer-copyright">
-            <div class="container">
-                © 2019 Copyright Calvin Fronda
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="container ">
+                <p id="copyright"> © 2019 Copyright Calvin Fronda </p>
+
             </div>
         </div>
-    </div>
+    </footer>
+
+
 
 
 
