@@ -17,7 +17,7 @@
 
 <body>
 
-
+    <!-- Navagation bar -->
     <div class="bg-img">
 
         <nav class="topNav transparent no-shadows nav-extended">
@@ -36,10 +36,10 @@
                 </div>
 
                 <div class="nav-content">
-                    <ul class="tabs tabs-transparent hide-on-large-only">
-                        <li class="tab"><a href="#aboutnav">About</a></li>
-                        <li class="tab"><a href="#projects">Projects</a></li>
-                        <li class="tab"><a href="navContact">Contact</a></li>
+                    <ul class="tabs tabs-transparent hide-on-large-only center-align">
+                        <li class=""><a href="#aboutnav">About</a></li>
+                        <li class=""><a href="#projects">Projects</a></li>
+                        <li class=""><a href="navContact">Contact</a></li>
                     </ul>
 
                 </div>
@@ -48,6 +48,7 @@
     </nav>
 
 
+    <!-- Landing page content -->
 
     <div class="landing-content">
         <h1>Full Stack Web Developer</h1>
@@ -58,6 +59,8 @@
     </div>
 
     </div>
+
+    <!-- About me section -->
 
     <section class="bottom-bg">
         <div class="about-me" id="aboutnav">
@@ -81,23 +84,25 @@
             </div>
         </div>
 
+    </section>
 
-
-        <section class="projects-wrapper">
+    <!-- <section class="projects-wrapper">
             <div class="container">
                 <h2 id="projects">Projects</h2>
                 <div class="row">
-                    <div class="col s4 ">
+                    <div class="col s12">
+                        <article class="content">
+                            <img src="https://picsum.photos/200/200">
+                            <h4>Hello</h4>
+                        </article>
+
+                    </div>
+                    <div class="col s12 ">
                         <article class="content">
                             <img src="https://picsum.photos/200/200">
                         </article>
                     </div>
-                    <div class="col s4 ">
-                        <article class="content">
-                            <img src="https://picsum.photos/200/200">
-                        </article>
-                    </div>
-                    <div class="col s4 ">
+                    <div class="col s12 ">
                         <article class="content">
                             <img src="https://picsum.photos/200/200">
                         </article>
@@ -110,90 +115,92 @@
         </section>
 
 
+ -->
 
 
 
-
-        <!-- <div class="
-                                projects">
-                            <h2 id="project">Projects</h2>
-                            <hr>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col s12  m12 l6">
-                                        <div class="card small">
-                                            <div class="card-image">
-                                                <img src="https://picsum.photos/200/300">
-                                                <span class="card-title">Squad-Up</span>
-                                            </div>
-                                            <div class="card-content">
-                                                <p>An online platform for gamers to find teammates and play their
-                                                    favorite game</p>
-                                            </div>
-                                            <div class="card-action">
-                                                <a href="#">Github</a>
-                                                <a href="#">Live</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col s12 m12 l6">
-                                        <div class="card small">
-                                            <div class="card-image">
-                                                <img src="https://picsum.photos/200/300">
-                                                <span class="card-title">Squatter</span>
-                                            </div>
-                                            <div class="card-content">
-                                                <p>An interactive application used to find homes around the LA area.
-                                                </p>
-                                            </div>
-                                            <div class="card-action">
-                                                <a href="#">Github</a>
-                                                <a href="#">Live</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                    </div> -->
-
-
-
-        <div class="contact">
-            <h4 id="connect">Connect with me!</h4>
-            <div class="container">
-                <ul>
-                    <li>Linkedin</li>
-                    <li>Github</li>
-                    <li>Resume</li>
-                </ul>
+    <div class="container">
+        <div class="projects">
+            <div class="col s12 m7">
+                <h2 class="header center-align">Projects</h2>
+                <div class="card horizontal small">
+                    <div class="card-image">
+                        <img src="assets/images/Squadup.gif">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3>Squad-up</h3>
+                            <p>Squad up is a website that brings online gamers together by connecting people with each
+                                other on the type of gamer they are. Groups or squads meet on the website to share and
+                                discuses any upcoming news about game updates or events their group is having. The
+                                project is still a work in progress.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Github</a>
+                            <a href="#">Live server</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-
-
-
-
-
-        <div class="footer">
-            <div class="footer-copyright">
-                <div class="container">
-                    © 2019 Copyright Calvin Fronda
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="card horizontal small">
+                <div class="card-image">
+                    <img src="assets/images/squatter.gif">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h3>Squatter</h3>
+                        <p>Squatter is a satire website that uses LA foreclosure data and google maps to find recent
+                            foreclosed homes so users can squat those homes.
+                            The website is purely for comedy, but it taught me a lot about api use and data
+                            management.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Github</a>
+                        <a href="#">Live server</a>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
 
 
 
 
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <div class="contact">
+        <h4 id="connect">Connect with me!</h4>
+        <div class="container">
+            <ul>
+                <li>Linkedin</li>
+                <li>Github</li>
+                <li>Resume</li>
+            </ul>
+        </div>
+    </div>
 
-        <!-- Javascript -->
 
-        <script src="script.js"></script>
+
+
+
+
+    <div class="footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Calvin Fronda
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Javascript -->
+
+    <script src="script.js"></script>
 
 </body>
 
