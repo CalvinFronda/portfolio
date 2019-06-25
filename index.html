@@ -160,53 +160,66 @@
     </div>
 
 
+    <!-- Contact form connected to formspree -->
 
 
-
-    <div class="contact">
-        <h2 id="connect">Connect with me!</h2>
-        <div class="container">
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/cfronda209@gmail.com"
+    <div class="container">
+        <div class="row">
+            <form class="col s12" id="fs-frm" name="simple0contact-form" accept-charset="utf-8" action="https://formspree.io/cfronda209@gmail.com"
                 method="post">
                 <fieldset id="fs-frm-inputs">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" name="name" id="full-name" required="">
-                    <label for="email-address">Email Address</label>
-                    <input type="email" name="_replyto" id="email-address" required="">
-                    <label for="message">Message</label>
-                    <textarea rows="5" name="message" id="message" required=""></textarea>
-                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                    <input class="right" type="submit" value="Submit">
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Full Name" id="name" type="text" class="validate">
+                            <label for="full-name" required=""> Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <label for="email-address">Email Address</label>
+                            <input type="email" name="_replyto" id="email-address" required="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea name="message" id="message" required="" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Textarea</label>
+                        </div>
+                    </div>
+
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
                 </fieldset>
-
             </form>
+
         </div>
+    </div>
 
 
+    <!-- footer -->
+    <footer class="page-footer  grey lighten-5">
 
+        <div class="footer-copyright">
+            <div class="container ">
+                <p id="copyright"> © 2019 Copyright Calvin Fronda </p>
 
-        <!-- footer -->
-        <footer class="page-footer  grey lighten-5">
-
-            <div class="footer-copyright">
-                <div class="container ">
-                    <p id="copyright"> © 2019 Copyright Calvin Fronda </p>
-
-                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
 
 
 
 
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-        <!-- Javascript -->
+    <!-- Javascript -->
 
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

@@ -98,6 +98,11 @@ nav{
 }
 
 
+.contact-form{
+    background-color: gray;
+}
+
+
 
 .icon-container:hover .image {
     opacity: 0.3;
