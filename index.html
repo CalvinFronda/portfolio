@@ -37,9 +37,9 @@
                 <!-- Responsive side, creates tabs under the logo to make it responsive. -->
                 <div class="nav-content">
                     <ul class="tabs tabs-transparent hide-on-large-only center-align">
-                        <li class=""><a href="#aboutnav">About</a></li>
-                        <li class=""><a href="#projects">Projects</a></li>
-                        <li class=""><a href="#connect">Contact</a></li>
+                        <li><a href="#aboutnav">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#connect">Contact</a></li>
                     </ul>
 
                 </div>
@@ -88,18 +88,18 @@
             </div>
             <div class="container icons">
                 <ul id="connect-icons">
-                    <a class="linkedin" href="https://www.linkedin.com/in/calvinfronda/" target="_blank">
-
-                        <li><img src="assets/images/icons/icons8-linkedin.svg">
+                    <a class="icon-container" href="https://www.linkedin.com/in/calvinfronda/" target="_blank">
+                        <li><img class="image" src="assets/images/icons/icons8-linkedin.svg">
                         </li>
                     </a>
 
-                    <a href="https://github.com/CalvinFronda" target="_blank">
-                        <li><img src="assets/images/icons/icons8-github.svg"></li>
+                    <a class="icon-container" href="https://github.com/CalvinFronda" target="_blank">
+                        <li><img class="image" src="assets/images/icons/icons8-github.svg"></li>
                     </a>
 
-                    <a href="https://drive.google.com/file/d/1nNSJPngPl3VLXQXZ1G3-jfQ4UhGyiZZ_/view?usp=sharing" target="_blank">
-                        <li><img src="assets/images/icons/icons8-document.svg"></li>
+                    <a class="icon-container" href="https://drive.google.com/file/d/1nNSJPngPl3VLXQXZ1G3-jfQ4UhGyiZZ_/view?usp=sharing"
+                        target="_blank">
+                        <li><img class="image" src="assets/images/icons/icons8-document.svg"></li>
                     </a>
                 </ul>
             </div>
@@ -176,8 +176,9 @@
                     <label for="message">Message</label>
                     <textarea rows="5" name="message" id="message" required=""></textarea>
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    <input class="right" type="submit" value="Submit">
                 </fieldset>
-                <input type="submit" value="Submit">
+
             </form>
         </div>
 
