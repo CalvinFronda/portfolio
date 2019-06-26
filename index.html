@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-
+    <!-- Materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
     <title>Calvin's Portfolio </title>
@@ -51,7 +51,7 @@
     <!-- Landing page content -->
 
     <div class="landing-content">
-        <h1>Full Stack Web Developer</h1>
+        <h1 id="landing-title">Full Stack Web Developer</h1>
         <div class="top-content">
             <h5>Hello! My name is Calvin Fronda based out of from Los Angeles, California. <br> I create beautiful
                 websites for small business and functional applications for fun! </h5>
@@ -85,25 +85,25 @@
 
 
                 </h5>
+
+                <div class="container icons">
+                    <ul id="connect-icons">
+                        <a class="icon-container" href="https://www.linkedin.com/in/calvinfronda/" target="_blank">
+                            <li><img class="connect-image" src="assets/images/icons/icons8-linkedin.svg">
+                            </li>
+                        </a>
+
+                        <a class="icon-container" href="https://github.com/CalvinFronda" target="_blank">
+                            <li><img class="connect-image" src="assets/images/icons/icons8-github.svg"></li>
+                        </a>
+
+                        <a class="icon-container" href="https://drive.google.com/file/d/1nNSJPngPl3VLXQXZ1G3-jfQ4UhGyiZZ_/view?usp=sharing"
+                            target="_blank">
+                            <li><img class="connect-image" src="assets/images/icons/icons8-document.svg"></li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-            <div class="container icons">
-                <ul id="connect-icons">
-                    <a class="icon-container" href="https://www.linkedin.com/in/calvinfronda/" target="_blank">
-                        <li><img class="image" src="assets/images/icons/icons8-linkedin.svg">
-                        </li>
-                    </a>
-
-                    <a class="icon-container" href="https://github.com/CalvinFronda" target="_blank">
-                        <li><img class="image" src="assets/images/icons/icons8-github.svg"></li>
-                    </a>
-
-                    <a class="icon-container" href="https://drive.google.com/file/d/1nNSJPngPl3VLXQXZ1G3-jfQ4UhGyiZZ_/view?usp=sharing"
-                        target="_blank">
-                        <li><img class="image" src="assets/images/icons/icons8-document.svg"></li>
-                    </a>
-                </ul>
-            </div>
-
 
         </div>
 
@@ -118,7 +118,7 @@
             <div class="col s12 ">
                 <div class="card horizontal small">
                     <div class="card-image">
-                        <img src="assets/images/gifs/Squadup.gif">
+                        <img class="hide-on-med-and-down" src="assets/images/gifs/Squadup.gif">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
@@ -137,8 +137,7 @@
 
                 <div class="card horizontal small">
                     <div class="card-image">
-                        <img src="assets/images/gifs/squatter.gif">
-                    </div>
+                        <img class="hide-on-med-and-down" src=" assets/images/gifs/squatter.gif"> </div>
                     <div class="card-stacked">
                         <div class="card-content">
                             <h3>Squatter</h3>
@@ -163,7 +162,12 @@
     <!-- Contact form connected to formspree -->
 
 
-    <div class="container">
+    <div class="container connect-with">
+        <h2 id="connect">Connect with me!</h2>
+        <p id="connect-text">If you have any quick questions or just want to talk you can send me a message below or
+            email me at
+            cfronda209@gmail.com</p>
+        <br>
         <div class="row">
             <form class="col s12" id="fs-frm" name="simple0contact-form" accept-charset="utf-8" action="https://formspree.io/cfronda209@gmail.com"
                 method="post">
@@ -171,8 +175,8 @@
 
                     <div class="row">
                         <div class="input-field col s12">
-                            <input placeholder="Full Name" id="name" type="text" class="validate">
-                            <label for="full-name" required=""> Name</label>
+                            <input placeholder=" Name" id="name" type="text" class="validate">
+                            <label for="full-name" required="">Name</label>
                         </div>
                     </div>
                     <div class="row">
@@ -184,11 +188,11 @@
                     <div class="row">
                         <div class="input-field col s12">
                             <textarea name="message" id="message" required="" class="materialize-textarea"></textarea>
-                            <label for="textarea1">Textarea</label>
+                            <label for="textarea1">Message!</label>
                         </div>
                     </div>
 
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <button class="btn waves-effect waves-light grey darken-3 right" type="submit" name="action">Submit
                         <i class="material-icons right">send</i>
                     </button>
                 </fieldset>
