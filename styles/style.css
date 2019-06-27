@@ -38,10 +38,9 @@ nav .brand-logo {
 
 /*  background image adding Parallax  */
 .bg-img {
-  background-image: url("/assets/images/picture/LA background.jpg");
+  background: url("/assets/images/picture/LAbackground.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
   position: relative;
   height: 950px;
   opacity: 0.9;
