@@ -1,0 +1,142 @@
+/* Smooth scrolling  */
+
+html {
+    scroll-behavior: smooth;
+    
+  }
+  
+  /* Nav Bar  */
+  nav{
+    background-color: transparent !important;
+  }
+  
+  .no-shadows{
+      box-shadow: none !important;
+  }
+  
+  
+  .topNav{
+    position: absolute;
+    top: 0%;
+    
+  }
+  
+  .tabs{
+    justify-content: center;
+  }
+  
+  /*  background image adding Parallax  */
+  
+  .bg-img{
+    background-image: url('./assets/images/picture/LAbackground.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height : 950px;
+    opacity: 0.9;
+    background-color:black;
+  
+  }
+  
+  
+  
+  
+  /* Text inside first background image */
+  .landing-content{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  #about{
+    margin-top: 0;
+    text-align: center;
+    
+  }
+  
+  
+  
+  #projects{
+    text-align: center;
+    position: relative;
+  }
+  
+  .about-me{
+    text-align: justify;
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 4%;
+  
+    
+  }
+  
+  .icons{
+    position: relative;
+    
+  }
+  
+  .icon-container{
+    position: relative;
+    width: 50%;
+  }
+  
+  .connect-image:hover{
+    opacity : .3;
+    
+    transition: .5s ease;
+    backface-visibility: hidden;
+  
+  }
+  #horiz{
+      display: inline-flex;
+      padding-top: 15px;
+      height: 100%;
+  }
+  
+  
+  
+  .contact-form{
+    background-color: gray;
+  }
+  
+  
+  
+  .icon-container:hover .image {
+    opacity: 0.3;
+  }
+  
+  
+  
+  #connect-icons li{
+    
+    display: inline-flex;
+  }
+  .icons{
+    text-align: center;
+    
+  }
+  #connect{
+    text-align: center;
+  }
+  
+  #connect-text{
+    text-align: center;
+  }
+  #copyright{
+    color : black;
+  }
+  
+  .page-footer{
+    text-align: center;
+  }
