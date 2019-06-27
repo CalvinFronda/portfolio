@@ -1,6 +1,6 @@
 $small-screen: 770px !default;
 $small-and-down: "only screen and (max-width : #{$small-screen})" !default;
-
+$background-img : "/assets/images/picture/LAbackground.jpg";
 /* Smooth scrolling  */
 
 html {
@@ -43,11 +43,9 @@ nav .brand-logo{
 /*  background image adding Parallax  */
 
 .bg-img{
-    background-image: url('/assets/images/picture/LA\ background.jpg');
-    
+    background: url($background-img) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     height : 950px;
     opacity: 0.9;
