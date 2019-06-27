@@ -59,7 +59,7 @@ html {
   /* Text inside first background image */
   .landing-content{
     position: absolute;
-    top: 50%;
+    top: 34%;
     left: 50%;
     text-align: center;
     color: white;
