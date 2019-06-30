@@ -89,12 +89,13 @@ html {
     background-color: #f8f8f8;
     padding: 4%;
   
-    
   }
   
   .icons{
     position: relative;
-    
+  }
+  ul:not(.browser-default)>li{
+    margin: 7px;
   }
   
   .icon-container{
