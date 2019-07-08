@@ -70,29 +70,29 @@ html {
   }
  
  
+ 
   
+/* About me section */
   
+  .about-me{
+    text-align: center;
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 4%;
+  
+  }
+
   #about{
     margin-top: 0;
     text-align: center;
     
   }
   
-  
-  
-  #projects{
-    text-align: center;
-    position: relative;
+  .about-me-content > p {
+    font-size: 1.5rem
   }
-  
-  .about-me{
-    text-align: justify;
-    position: relative;
-    background-color: #f8f8f8;
-    padding: 4%;
-  
-  }
-  
+
+  /* Icons for socials */
   .icons{
     position: relative;
   }
@@ -118,8 +118,19 @@ html {
       height: 100%;
   }
   
-  
-  
+
+/* Projects */
+
+#projects{
+  text-align: center;
+  position: relative;
+}
+
+
+
+
+
+  /* Contact Form */
   .contact-form{
     background-color: gray;
   }
@@ -129,7 +140,6 @@ html {
   .icon-container:hover .image {
     opacity: 0.3;
   }
-  
   
   
   #connect-icons li{
@@ -154,6 +164,9 @@ html {
   .page-footer{
     text-align: center;
   }
+
+  
+
 
 /* Iphone responsiveness  */
 @media only screen and (max-width: 375px){
