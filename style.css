@@ -59,7 +59,7 @@ html {
   /* Text inside first background image */
   .landing-content{
     position: absolute;
-    top: 34%;
+    top: 35%;
     left: 50%;
     text-align: center;
     color: white;
@@ -155,5 +155,13 @@ html {
     text-align: center;
   }
 
-
+/* Iphone responsiveness  */
+@media only screen and (max-width: 375px){
+  .landing-content{
+    top: 50%;
+  }
+  .card-content > p {
+    font-size: 12px;
     
+  }
+}
