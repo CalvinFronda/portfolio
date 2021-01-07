@@ -2,62 +2,54 @@
 
 html {
     scroll-behavior: smooth;
-    
-  }
-  
-  /* Nav Bar  */
-  nav{
+}
+
+/* Nav Bar  */
+nav {
     background-color: transparent !important;
-  }
-  
+}
 
+.no-shadows {
+    box-shadow: none !important;
+}
 
-  .no-shadows{
-      box-shadow: none !important;
-  }
-  
-  
-  .topNav{
+.topNav {
     position: absolute;
     top: 0%;
-    
-  }
-  
-  .tabs{
+}
+
+.tabs {
     justify-content: center;
     padding-top: 25px;
-  }
-  
-  .responsive-title{
-    padding-top:25px;
-  }
+}
 
+.responsive-title {
+    padding-top: 25px;
+}
 
-  /*  background image adding Parallax  */
-  
-  .bg-img{
+/*  background image adding Parallax  */
+
+.bg-img {
     background-image: url('./assets/images/picture/LAbackground.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height : 950px;
+    height: 950px;
     opacity: 0.9;
-    background-color:black;
-  
-  }
-  
-  .top-logo{
-      font-size: 2.1rem;
-  }
-  
-  .top-logo2{
+    background-color: black;
+}
+
+.top-logo {
     font-size: 2.1rem;
-  }
-  
-  
-  /* Text inside first background image */
-  .landing-content{
+}
+
+.top-logo2 {
+    font-size: 2.1rem;
+}
+
+/* Text inside first background image */
+.landing-content {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -65,116 +57,99 @@ html {
     color: white;
     font-family: 'Roboto', sans-serif;
     transform: translate(-50%, -50%);
-   
-    
-  }
- 
- 
- 
-  
+}
+
 /* About me section */
-  
-  .about-me{
+
+.about-me {
     text-align: center;
     position: relative;
     background-color: #f8f8f8;
     padding: 4%;
-  
-  }
+}
 
-  #about{
+#about {
     margin-top: 0;
     text-align: center;
-    
-  }
-  
-  .about-me-content > p {
-    font-size: 1.5rem
-  }
+}
 
-  /* Icons for socials */
-  .icons{
+.about-me-content > p {
+    font-size: 1.5rem;
+}
+
+/* Icons for socials */
+.icons {
     position: relative;
-  }
-  ul:not(.browser-default)>li{
+}
+ul:not(.browser-default) > li {
     margin: 7px;
-  }
-  
-  .icon-container{
+}
+
+.icon-container {
     position: relative;
     width: 50%;
-  }
-  
-  .connect-image:hover{
-    opacity : .3;
-    
-    transition: .5s ease;
+}
+
+.connect-image:hover {
+    opacity: 0.3;
+
+    transition: 0.5s ease;
     backface-visibility: hidden;
-  
-  }
-  #horiz{
-      display: inline-flex;
-      padding-top: 15px;
-      height: 100%;
-  }
-  
+}
+#horiz {
+    display: inline-flex;
+    padding-top: 15px;
+    height: 100%;
+}
 
 /* Projects */
 
-#projects{
-  text-align: center;
-  position: relative;
+#projects {
+    text-align: center;
+    position: relative;
 }
 
+.card-image {
+    width: 300px;
+    height: 300;
+}
 
-
-
-
-  /* Contact Form */
-  .contact-form{
+/* Contact Form */
+.contact-form {
     background-color: gray;
-  }
-  
-  
-  
-  .icon-container:hover .image {
+}
+
+.icon-container:hover .image {
     opacity: 0.3;
-  }
-  
-  
-  #connect-icons li{
-    
+}
+
+#connect-icons li {
     display: inline-flex;
-  }
-  .icons{
+}
+.icons {
     text-align: center;
-    
-  }
-  #connect{
+}
+#connect {
     text-align: center;
-  }
-  
-  #connect-text{
-    text-align: center;
-  }
-  #copyright{
-    color : black;
-  }
-  
-  .page-footer{
-    text-align: center;
-  }
+}
 
-  
+#connect-text {
+    text-align: center;
+}
+#copyright {
+    color: black;
+}
 
+.page-footer {
+    text-align: center;
+}
 
 /* Iphone responsiveness  */
-@media only screen and (max-width: 375px){
-  .landing-content{
-    top: 50%;
-  }
-  .card-content > p {
-    font-size: 12px;
-    
-  }
+@media only screen and (max-width: 375px) {
+    .landing-content {
+        top: 50%;
+    }
+    .card-content > p {
+        font-size: 12px;
+    }
 }
