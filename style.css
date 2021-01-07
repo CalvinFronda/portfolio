@@ -109,11 +109,6 @@ ul:not(.browser-default) > li {
     position: relative;
 }
 
-.card-image {
-    width: 300px;
-    height: 300;
-}
-
 /* Contact Form */
 .contact-form {
     background-color: gray;
